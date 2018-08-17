@@ -56,9 +56,10 @@ var FormView = Backbone.View.extend({
 var fv = new FormView()
 $('body').append(fv.render().el);
 
-//guidlines
+/*guidlines
 - Views should render self-contained DOM element
 - Do not attach to existing elements
 - Do not access DOM elements the view does not
 own
 - Pass el to the constructor of self-updating view
+*/
